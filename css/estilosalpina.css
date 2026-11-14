@@ -1,0 +1,171 @@
+
+body {
+	font-family: "Spline Sans", sans-serif;
+    background-color:#cbe8f5;
+    color: #4f6f52;
+}
+
+#red{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	transition: all 0.3s ease;
+	color: #225ae6 !important;
+	margin-top: 15px;
+}
+
+.red:hover{
+	color:#002ad3;
+	transform:scale(1.2);
+}
+
+.red i{
+	color:#225ae6;
+	transition:all 0.3s ease;
+}
+
+.red:hover i{
+	color:#060480;
+	transform:scale(1.2);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.brand img{
+	height: 90px;
+	width: auto;
+}
+
+.navbar{
+	padding-left: 0;
+	padding-right: 0;
+	background-color:#225ae6;
+}
+
+.navbar a{
+	color: #225ae6;
+	margin-right: 10px;
+}
+
+.nav-link{
+	font-weight:500;
+	color: #4a0480 !important;
+}
+
+.menu-link{
+	color: white;
+	padding:6px 12px;
+	border-radius:16px;
+	transition: all 0.3s ease;
+}
+
+.menu-link:hover{
+	background-color:#e8c307;
+	color:white;
+}
+
+.banner{
+	position: relative;
+}
+
+.banner-texto{
+	position:absolute;
+	top:50%;
+	left:15%;
+	transform:translateY(-50%);
+	color:white;
+	max-width:300px;
+}
+
+
+.text-center{
+	color: #002ad3 !important;
+}
+
+.texto-home{
+	padding: 2%;
+}
+.texto-home p{
+	font-family: "Spline Sans", sans-serif;
+	color: #041e26 !important;
+	text-align: center;
+	padding-right: 5%;
+	padding-left: 5%;
+	font-size: 40px;
+}
+
+.producto-card{
+	border:none;
+	border-radius:12px;
+	overflow:hidden;
+	transition:0.3s;
+	text-align:center;
+}
+
+.producto-card img{
+	height:300px;
+	object-fit:cover;
+}
+
+.producto-card:hover{
+	transform:translateY(-5px);
+	box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card-title{
+	font-size:25px;
+	font-weight:600;
+	color:#4a0480;
+	margin-top:10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #e8c307;
+    color: white;
+}
+#red2{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:15px;
+	font-size:20px;
+	margin-top:15px;
+}
+
+.red2 i{
+	color:white;
+	transition:all 0.3s ease;
+}
+
+.red2:hover i{
+	color:#e8c307 !important;
+	transform:scale(1.2);
+}
+
+#nos{
+	padding: 3%;
+	font-family: "Spline Sans", sans-serif;
+	color: #031240 !important;
+	text-align: center;
+	font-size: 17px;
+}
+
+.banner-nosotros{
+	text-align: center;
+}
+
+.img-centrada{
+	display: block;
+	margin: 0 auto;
+	max-width: 90%;
+	height: auto;
+}
+
